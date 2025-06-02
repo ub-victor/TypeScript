@@ -2,7 +2,7 @@ const character = 'mario';
 
 console.log(`Hello, ${character}!`);
 
-const input = document.querySelectorAll('input');
+const inputs = document.querySelectorAll('input');
 
 
-console.log(input);
+console.log(inputs);
