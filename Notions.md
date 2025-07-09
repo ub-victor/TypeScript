@@ -68,3 +68,10 @@ When start a project with TypeScript
 when having a project that is more complex you might have several typeScript and several TypeScript files and you might not mixed all together you might need to separate them into different folders may be a folder for all of our cource files where we write our typeScript and a folder for all of the files that were then going to deploy at the end to some kimd of web server 
 eg: public and src forder
 
+it is important to inialize a tsconfig.json in our src folder 
+
+ Write in the terminal to initialize the config.json file in the scr folder
+      tsc --init  
+
+and the go in it an look for the rootDir to tell it all of our root directory files are gonna be inside this source folder and out of directory is going to be inside the public folder
+
