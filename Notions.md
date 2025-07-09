@@ -73,5 +73,5 @@ it is important to inialize a tsconfig.json in our src folder
  Write in the terminal to initialize the config.json file in the scr folder
       tsc --init  
 
-and the go in it an look for the rootDir to tell it all of our root directory files are gonna be inside this source folder and out of directory is going to be inside the public folder
+and the go in it an look for the rootDir to tell it all of our root directory files are gonna be inside this source folder and out of directory is going to be inside the public folder so this should be where everything inside this root file is compile to and places
 
