@@ -58,3 +58,13 @@ what if you just need to create a variable and you do not know yet what will be 
 Here is the the way of doing the union of types espacially on the array 
 
 let mixed: (string|number)[] = []; 
+
+Any type
+
+We use the any type in  JavaScript to say this variable is would be any type in the future could be a boolen, number, and string which means at any point in time it could change the type like now it can be a boolen and be a strint type in the future 
+
+When start a project with TypeScript
+
+when having a project that is more complex you might have several typeScript and several TypeScript files and you might not mixed all together you might need to separate them into different folders may be a folder for all of our cource files where we write our typeScript and a folder for all of the files that were then going to deploy at the end to some kimd of web server 
+eg: public and src forder
+

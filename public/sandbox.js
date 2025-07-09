@@ -43,9 +43,28 @@
 // mixed.push("Winner");
 // mixed.push(12)
 // mixed.push(true) // here it will output an error as we did not declare a boolean type  
-// Object
-var vick1;
-vick1 = { name: "Ushindi", age: 20 };
-var vick2;
-vick2 = { name: "Winner", age: 25, beltcolour: "Red" }; // and we cannot add anything apart from what we initialize the object with
-// 5=> 6
+// // Object
+// let vick1: object;
+// vick1 = {name: "Ushindi", age:20}
+// let vick2 : {
+//   name: string,
+//   age: number,
+//   beltcolour:string
+// }
+// vick2 = {name: "Winner", age: 25, beltcolour: "Red"}// and we cannot add anything apart from what we initialize the object with
+// Any type
+// let age: any =  25; // same as writing let age : any; age = 15;
+// age = true
+// console.log(age);
+// age = "Victoite";
+// console.log(age)
+// age = {name: "Victoire"}
+// console.log(age);
+// let mixed: any[] = [];
+// mixed.push(5)
+// mixed.push("Victoire")
+// mixed.push(false)
+// console.log(mixed)
+// let ninja:{name: any, age:any};
+// ninja = {name:12, age: "age"}
+// console.log(ninja)
