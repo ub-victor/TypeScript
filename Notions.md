@@ -75,3 +75,12 @@ it is important to inialize a tsconfig.json in our src folder
 
 and the go in it an look for the rootDir to tell it all of our root directory files are gonna be inside this source folder and out of directory is going to be inside the public folder so this should be where everything inside this root file is compile to and places
 
+ Why does tsconfig.json have to be outside src/?
+Because tsconfig.json defines the root configuration of the whole TypeScript project — it tells TypeScript:
+
+where the source files are,
+
+where to put the output files,
+
+"Hey! Look at all the files in src/, compile them, and put the output in public/."
+
