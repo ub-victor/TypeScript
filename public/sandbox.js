@@ -1,3 +1,4 @@
+"use strict";
 // var character = 'victor';
 // console.log(`Hello, ${character}!`);
 // var inputs = document.querySelectorAll('input');
@@ -67,4 +68,4 @@
 // console.log(mixed)
 // let ninja:{name: any, age:any};
 // ninja = {name:12, age: "age"}
-// console.log(ninja)
+console.log("Victoire King");
