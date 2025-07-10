@@ -84,3 +84,5 @@ where to put the output files,
 
 "Hey! Look at all the files in src/, compile them, and put the output in public/."
 
+So: keep tsconfig.json at the root (outside src/) so that you can clearly control what goes in and what comes out.
+
