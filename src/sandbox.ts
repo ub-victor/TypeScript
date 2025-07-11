@@ -107,6 +107,6 @@
 // ninja = {name:12, age: "age"}
 
 
-console.log("Victoire King")
+//console.log("Victoire King")
 
 
