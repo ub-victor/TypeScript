@@ -109,3 +109,6 @@
 
 //console.log("Victoire King")
 
+let greet = () => {
+    console.log("Victoire")
+}
