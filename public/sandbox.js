@@ -68,4 +68,18 @@
 // console.log(mixed)
 // let ninja:{name: any, age:any};
 // ninja = {name:12, age: "age"}
-console.log("Victoire King");
+//console.log("Victoire King")
+// let nam: string = "vicky";
+// let greet: Function;
+// greet = () =>{
+//     console.log("Hello "+ nam);
+// }
+// greet();
+let greet;
+greet = () => {
+    console.log("hello, again");
+};
+const add = (a, b, c) => {
+    console.log(a + b);
+};
+add(4, 5);

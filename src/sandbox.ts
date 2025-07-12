@@ -108,7 +108,21 @@
 
 
 //console.log("Victoire King")
+// let nam: string = "vicky";
+// let greet: Function;
 
-let greet = () => {
-    console.log("Victoire")
+// greet = () =>{
+//     console.log("Hello "+ nam);
+// }
+// greet();
+
+let greet: Function;
+greet = () => {
+    console.log("hello, again")
 }
+
+const add = (a:number, b:number, c?: number | string) => {
+    console.log(a+b);
+}
+
+add(4,5);
