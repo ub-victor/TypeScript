@@ -86,7 +86,7 @@ where to put the output files,
 
 So: keep tsconfig.json at the root (outside src/) so that you can clearly control what goes in and what comes out.
 
-Function Basics
+ Function Basics
 
 When working with function in TypeScript you are not allow to use the function name with an other type thoughout the file so the function type always has to start with a capital letter like this : let greet: Function;
 
