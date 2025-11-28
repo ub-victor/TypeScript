@@ -1,7 +1,7 @@
-Introduction
+## Introduction
 
 
-- Alternative to javascriptt (superset)
+- Alternative to javascript (superset)
 - Allow us to strick types
 - Supports mordern features (arrow functions, let,const)
 - Extra features like (generics, Interfaces, tuples ect)
