@@ -32,7 +32,7 @@ function placeOrder (pizzaName){
     cashInRegister += selectedPizza.price
     const newOrder = {id: nextOrdId, pizza: selectedPizza, status: "ordered"}
     orderQueue.push(newOrder) 
-    return newOrder 
+    return newOrder
 }
 
 /**
