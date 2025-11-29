@@ -30,7 +30,7 @@ function addNewPizza(pizzaObj){
 function placeOrder (pizzaName){
     const selectedPizza = menu.find(pizzaObj = pizzaObj.name === pizzaName)
     cashInRegister += selectedPizza.price
-    const newOrder = {pizza: selectedPizza, status: "ordered"} 
+    const newOrder = {id: nextOrdId, pizza: selectedPizza, status: "ordered"} 
     return newOrder
 }
 
@@ -42,4 +42,4 @@ function placeOrder (pizzaName){
  * Note: you'll need to ensure that we're adding IDs to our orders when we create new orders. You can use a global `nextOrderId` variable and increment it every time a new order is created to simulate real IDs being managed for us by a database.
  */
 
-function ccompleOrder
+function compleOrder
