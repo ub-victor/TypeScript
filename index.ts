@@ -6,7 +6,7 @@ const menu = [
 ]
 
 let cashInRegister = 100;
-const nextOrdId = 1;
+let nextOrdId = 1;
 const orderQueue = [];
 
 /**
