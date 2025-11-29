@@ -25,3 +25,8 @@ function addNewPizza(pizzaObj){
  *    (e.g. { pizza: selectedPizzaObjectFromStep1, status: "ordered" })
  * 4. returns the new order object (just in case we need it later)
  */
+
+function placeOrder (pizzaName){
+    const selectedPizza = menu.find(pizzaObj = pizzaObj.name === pizzaName)
+    cashInRegister += selectedPizza.price
+}
