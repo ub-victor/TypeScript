@@ -112,3 +112,5 @@
   },
   "include":["src"]  /* Specify a list of files or patterns to include in the program. which mean files out of src will not be included in the compilation */
 }
+
+// TypeScript Tutorial #8 - Function Basics
