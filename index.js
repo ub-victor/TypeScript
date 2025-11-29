@@ -46,4 +46,5 @@ function placeOrder (pizzaName){
 function compleOrder(orderId){
     const order = orderQueue.find(order => order.id === orderId)
     order.status = "completed"
+    return order
 }
