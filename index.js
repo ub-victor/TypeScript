@@ -48,3 +48,7 @@ function compleOrder(orderId){
     order.status = "completed"
     return order
 }
+
+addNewPizza({ name: "Chicken Bacon Ranch", cost: 12 })
+addNewPizza({ name: "BBQ Chicken", cost: 12 })
+addNewPizza({ name: "Spicy Sausage", cost: 11 })
