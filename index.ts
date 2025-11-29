@@ -5,7 +5,7 @@ const menu = [
     {name: "Veggie", price: 9}
 ]
 
-const cashInRegister = 100;
+let cashInRegister = 100;
 const nextOrdId = 1;
 const orderQueue = [];
 
