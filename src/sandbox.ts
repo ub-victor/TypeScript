@@ -126,5 +126,5 @@ const add = (a:number, b:number, c?: number | string) => {
 }
 
 add(4,5);
-
+ 
 // #6
