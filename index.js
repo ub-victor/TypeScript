@@ -30,4 +30,5 @@ function placeOrder (pizzaName){
     const selectedPizza = menu.find(pizzaObj = pizzaObj.name === pizzaName)
     cashInRegister += selectedPizza.price
     const newOrder = {pizza: selectedPizza, status: "ordered"} 
+    return newOrder
 }
