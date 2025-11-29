@@ -29,5 +29,5 @@ function addNewPizza(pizzaObj){
 function placeOrder (pizzaName){
     const selectedPizza = menu.find(pizzaObj = pizzaObj.name === pizzaName)
     cashInRegister += selectedPizza.price
-    const 
+    const newOrder = {pizza: selectedPizza} 
 }
