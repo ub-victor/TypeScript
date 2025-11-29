@@ -83,3 +83,4 @@ const add = (a, b, c) => {
     console.log(a + b);
 };
 add(4, 5);
+// #6
