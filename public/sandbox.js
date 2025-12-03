@@ -8,3 +8,7 @@ const add = (a, b, c) => {
     console.log(a + b);
 };
 add(3, 4);
+const minus = (a, b) => {
+    return a + b;
+};
+let result = minus(10, 7);
