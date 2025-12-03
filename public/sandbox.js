@@ -4,6 +4,7 @@ greet = () => {
     console.log("Hello, world");
 };
 // const add = (a: number, b: number, c: number | string = 10)=>{
+// void is the complete lack on value
 const add = (a, b, c) => {
     console.log(a + b);
 };

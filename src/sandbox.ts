@@ -5,6 +5,7 @@ greet = () =>{
 }
 
 // const add = (a: number, b: number, c: number | string = 10)=>{
+// void is the complete lack on value
 const add = (a: number, b: number, c?: number | string)=>{
     console.log(a+b)
 }
