@@ -15,4 +15,4 @@ const minus = (a: number, b: number)=>{
     return a+b
 }
 
-let result = minus(10,7); 
+let result = minus(10,7);
