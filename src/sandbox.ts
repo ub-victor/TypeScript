@@ -12,7 +12,7 @@ const add = (a: number, b: number, c?: number | string)=>{
 add(3,4);
 
 const minus = (a: number, b: number)=>{
-    return a+b
+    return a+b;
 }
 
 let result = minus(10,7);
