@@ -8,3 +8,4 @@ const greet = (user) => {
 const greetAgain = (user) => {
     console.log(`${user.name} says hello`);
 };
+// next # 10

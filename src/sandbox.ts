@@ -13,3 +13,5 @@ const greet = (user: objWithName )=>{
 const greetAgain = (user: objWithName )=>{
     console.log(`${user.name} says hello`);
 }
+
+// next # 10
