@@ -5,6 +5,6 @@ const logDetails = (uid: String | Number, item: String)=>{
 }
 
 
-const greet = (user: String | Number, item: String)=>{
+const greet = (user: String , uid: String | number)=>{
     console.log(`${item} has a uid of ${uid}`);
 }
