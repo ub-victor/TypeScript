@@ -1,19 +1,5 @@
-let greet : Function;
 
-greet = () =>{
-    console.log("Hello, world")
+
+const logDetails = (uid: String | Number, item: String)=>{
+    console.log(`${item} has a uid of ${uid}`);
 }
-
-// const add = (a: number, b: number, c: number | string = 10)=>{
-// void is the complete lack on value
-const add = (a: number, b: number, c?: number | string)=>{
-    console.log(a+b)
-}
-
-add(3,4);
-
-const minus = (a: number, b: number)=>{
-    return a+b;
-}
-
-let result = minus(10,7);
