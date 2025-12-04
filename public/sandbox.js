@@ -17,3 +17,4 @@ calc = (num1, num2, action) => {
 };
 // example 3
 let loginDetails;
+loginDetails = (ninja) => ;

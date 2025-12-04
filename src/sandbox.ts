@@ -23,3 +23,5 @@ calc = (num1: number, num2: number, action: string)=>{
 // example 3
 
 let loginDetails: (obj: {name: string, age: number}) => void;
+
+loginDetails = (ninja: {name: string, age: number});
