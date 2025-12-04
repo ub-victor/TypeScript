@@ -24,4 +24,8 @@ calc = (num1: number, num2: number, action: string)=>{
 
 let loginDetails: (obj: {name: string, age: number}) => void;
 
-loginDetails = (ninja: {name: string, age: number});
+type person = {name: string, age: number};
+
+loginDetails = (ninja: )=>{
+    console.log(`${ninja.name} is ${ninja.age} years old`)
+};
