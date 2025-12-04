@@ -20,3 +20,4 @@ let loginDetails;
 loginDetails = (ninja) => {
     console.log(`${ninja.name} is ${ninja.age} years old`);
 };
+// #11

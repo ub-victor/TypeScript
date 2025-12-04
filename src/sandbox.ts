@@ -29,3 +29,6 @@ type person = {name: string, age: number};
 loginDetails = (ninja: person )=>{
     console.log(`${ninja.name} is ${ninja.age} years old`)
 };
+
+
+// #11
