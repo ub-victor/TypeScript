@@ -5,5 +5,5 @@
 let greet : (a: string, b: string)=> void;
 
 greet = (name: string, greeting: string)=>{
-    console.log(`${name}`)
+    console.log(`${name} says ${greeting}`);
 }

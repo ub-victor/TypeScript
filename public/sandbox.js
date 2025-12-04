@@ -3,5 +3,5 @@
 // example 1
 let greet;
 greet = (name, greeting) => {
-    console.log(`${name}`);
+    console.log(`${name} says ${greeting}`);
 };
