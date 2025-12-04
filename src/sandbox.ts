@@ -26,6 +26,6 @@ let loginDetails: (obj: {name: string, age: number}) => void;
 
 type person = {name: string, age: number};
 
-loginDetails = (ninja: )=>{
+loginDetails = (ninja: person )=>{
     console.log(`${ninja.name} is ${ninja.age} years old`)
 };
