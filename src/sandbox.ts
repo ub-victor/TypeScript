@@ -1,3 +1,3 @@
-let greet: Function;
+//let greet: Function;
 
-()=> void;
+// example 1

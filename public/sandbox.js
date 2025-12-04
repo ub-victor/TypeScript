@@ -1,3 +1,3 @@
 "use strict";
-let greet;
-() => void ;
+//let greet: Function;
+// example 1
