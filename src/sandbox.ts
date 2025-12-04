@@ -14,6 +14,8 @@ let calc: (a: number, b:number,c: string)=> number;
 
 calc = (num1: number, num2: number, action: string)=>{
     if(action ==="add"){
-        return num1_+ num2;
+        return num1 + num2;
+    }else {
+        return num1 - num2;
     }
 }
