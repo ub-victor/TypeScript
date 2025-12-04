@@ -1,0 +1,3 @@
+let greet: Function;
+
+()=> void;
